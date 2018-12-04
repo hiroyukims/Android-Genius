@@ -1,0 +1,23 @@
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nhmatsumoto.trabalho_android.Main">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/btnMenuRanking"
+        android:title="Ranking"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/btnMenuAluno"
+        android:title="Aluno"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
+
+
+
